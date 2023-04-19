@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>ROCK PAPER SCISSORS</title>
+</head>
+<body>
+<h1>ROCK-PAPER-SCISSORS GAME</h1>
+<div class="container">
+  
+  <div id="youDiv" class="you-div">
+    <h1>RALPH</h1>
+    <h2 id="youScore">0</h2>
+    <h1 id="youPlay">YOU</h1>
+    <div class="btn-div">
+      <button id="rockBtn"><img src="assets/images/rock.png" alt=""></button>
+      <button id="paperBtn"><img src="assets/images/paper.png" alt=""></button>
+      <button id="scissorsBtn"><img src="assets/images/scissors.png" alt=""></button>
+    </div>
+  </div>
+
+
+  <div id="aiDiv" class="ai-div">
+    <h1>COMPUTER</h1>
+    <h2 id="aiScore">0</h2>
+    <h1 id="aiPlay">AI</h1>
+  </div>
+
+
+  <div id="scoreDiv" class="score-div">
+    <h2 id="result">Win or Lose</h2>
+    <h3>Match History</h3>
+    <div id="historyMatch" class="historyMatch">
+    </div>
+    <button onclick="location.reload()" class="resetBtn">RESET</button>
+  </div>
+</div>
+
+
+
+  
+  <script src="assets/script/script.js"></script>
+</body>
+</html>
